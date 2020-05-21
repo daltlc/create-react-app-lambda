@@ -4,7 +4,7 @@
 import axios from 'axios';
 export async function handler(event, context) {
 	try {
-		const response = await axios.get('https://api.stocktwits.com/api/2/streams/symbol/aap', {
+		const response = await axios.get('https://api.stocktwits.com/api/2/streams/symbol/aap.json?', {
 			headers: { Accept: 'application/json' }
 		});
 		const data = response.data;
