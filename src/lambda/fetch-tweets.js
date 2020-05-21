@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const apiUrl = 'https://api.stocktwits.com/api/2/streams/symbol';
+const apiUrl = 'https://api.stocktwits.com/api/2/streams/';
 const headers = {
 	headers: {
 		Accept: 'application/json'
